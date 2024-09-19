@@ -1,4 +1,5 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD target/springboot-images-new.jar springboot-images-new.jar
+ADD target/githubactiondemo.jar githubactiondemo.jar
+ENTRYPOINT ["java","-jar","/githubactiondemo.jar"]
 ENTRYPOINT ["java","-jar","/githubactiondemo.jar"]
