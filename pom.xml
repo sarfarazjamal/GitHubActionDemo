@@ -68,6 +68,8 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>githubactiondemo</finalName>
     </build>
+
 
 </project>
