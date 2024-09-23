@@ -15,7 +15,7 @@ public class PingController {
     @GetMapping("/ping")
     public String PingCheck()
     {
-        return "ping";
+        return "ping response";
     }
 
     @PostMapping("/test-post")
