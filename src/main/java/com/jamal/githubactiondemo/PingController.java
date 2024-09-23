@@ -14,7 +14,7 @@ public class PingController {
 
     @GetMapping("/ping")
     public String PingCheck()
-    {
+    {    log.info("Hello")
         return "ping response";
     }
 
